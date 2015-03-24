@@ -1,0 +1,1 @@
+cmd_/root/workspace/scull/scull.ko.unsigned := ld -r -m elf_x86_64 -T /usr/src/kernels/2.6.32-504.12.2.el6.x86_64/scripts/module-common.lds --build-id -o /root/workspace/scull/scull.ko.unsigned /root/workspace/scull/scull.o /root/workspace/scull/scull.mod.o 

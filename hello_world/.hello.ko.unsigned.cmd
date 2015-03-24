@@ -1,0 +1,1 @@
+cmd_/root/workspace/hello_world/hello.ko.unsigned := ld -r -m elf_x86_64 -T /usr/src/kernels/2.6.32-504.12.2.el6.x86_64/scripts/module-common.lds --build-id -o /root/workspace/hello_world/hello.ko.unsigned /root/workspace/hello_world/hello.o /root/workspace/hello_world/hello.mod.o 
